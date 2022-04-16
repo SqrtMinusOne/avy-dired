@@ -4,4 +4,4 @@ Doing some experimentation with avy & dired. Still somewhat flaky.
 
 [[./img/screenshot.png]]
 
-The only available command is =M-x avy-dired-goto-line=. Use =K= and =J= to scroll up and down while in the avy state, or =C-g= to quit.
+The only available command is =M-x avy-dired-goto-line=. Use =K= and =J= to scroll up and down while in the avy state, =C-g= or =q= to quit.

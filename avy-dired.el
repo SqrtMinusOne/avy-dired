@@ -81,6 +81,8 @@ Relevant only if `dired-hide-details-mode' is inactive."
                 (?J (progn
                       (scroll-down-command)
                       (avy-dired-goto-line)))
+                (?q (progn
+                      (throw 'done 'abort)))
                 (_ (funcall avy-handler-old char)))))
            (r (avy-process (avy-dired-cands))))
       (when (not (memq r '(t nil)))

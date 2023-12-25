@@ -1,12 +1,13 @@
 ;;; avy-dired.el --- The fastest file navigation in the wild west -*- lexical-binding: t -*-
 
-;; Copyright (C) 2022 Korytov Pavel
+;; Copyright (C) 2022-2023 Korytov Pavel
 
 ;; Author: Korytov Pavel <thexcloud@gmail.com>
 ;; Maintainer: Korytov Pavel <thexcloud@gmail.com>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1") (avy "0.5.0"))
 ;; Homepage: https://github.com/SqrtMinusOne/avy-dired.el
+;; Published-At: 2022-04-01
 
 ;; This file is NOT part of GNU Emacs.
 
